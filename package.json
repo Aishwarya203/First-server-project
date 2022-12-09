@@ -1,21 +1,22 @@
 {
-  "name": "first-server-project",
+  "name": "first-server",
   "version": "1.0.0",
   "description": "our first node.js server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aishwarya203/First-server-project.git"
+    "url": "git+https://github.com/rohan1917/first-server.git"
   },
-  "author": "Aishwarya",
+  "author": "rohan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aishwarya203/First-server-project/issues"
+    "url": "https://github.com/rohan1917/first-server/issues"
   },
-  "homepage": "https://github.com/Aishwarya203/First-server-project#readme",
+  "homepage": "https://github.com/rohan1917/first-server#readme",
   "dependencies": {
     "nodemon": "^2.0.20"
   }
