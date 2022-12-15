@@ -1,3 +1,4 @@
+
 const express = require("express");
 
 // initilisation
@@ -23,7 +24,6 @@ app.post("/todos", (req, res) => {
     message: "The to do got added succesfully",
   });
 });
-
 app.delete("/todos", (req, res) => {
   const itemToDelete = req.body.item;
 
@@ -47,6 +47,7 @@ app.all("*", (req, res) => {
 
 // app.get("/todos/create");
 // app.get("/todos/deletd");
+
 app.listen(port, () => {
   console.log(`Node js server started on ${port}`);
 });
